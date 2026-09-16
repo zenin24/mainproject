@@ -1,0 +1,1447 @@
+{
+  "calibration_metadata": {
+    "validation_samples": 8,
+    "test_samples": 8,
+    "default_threshold": 0.25,
+    "optimal_macro_threshold": 0.2,
+    "optimal_per_finding_thresholds": {
+      "normal": 0.24,
+      "pneumonia": 0.22,
+      "pleural_effusion": 0.23,
+      "pneumothorax": 0.2,
+      "cardiomegaly": 0.23,
+      "atelectasis": 0.22,
+      "pulmonary_edema": 0.15,
+      "consolidation": 0.21
+    },
+    "disclaimer": "Research prototype similarity threshold calibration. NOT clinically validated probabilities."
+  },
+  "validation_sweep": [
+    {
+      "threshold": 0.15,
+      "macro_f1": 0.2222,
+      "macro_precision": 0.125,
+      "macro_recall": 1.0,
+      "macro_specificity": 0.0,
+      "micro_f1": 0.2222,
+      "micro_precision": 0.125,
+      "micro_recall": 1.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pneumonia": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pleural_effusion": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pneumothorax": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "cardiomegaly": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "atelectasis": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pulmonary_edema": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "consolidation": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        }
+      }
+    },
+    {
+      "threshold": 0.16,
+      "macro_f1": 0.2222,
+      "macro_precision": 0.125,
+      "macro_recall": 1.0,
+      "macro_specificity": 0.0,
+      "micro_f1": 0.2222,
+      "micro_precision": 0.125,
+      "micro_recall": 1.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pneumonia": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pleural_effusion": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pneumothorax": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "cardiomegaly": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "atelectasis": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pulmonary_edema": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "consolidation": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        }
+      }
+    },
+    {
+      "threshold": 0.17,
+      "macro_f1": 0.2222,
+      "macro_precision": 0.125,
+      "macro_recall": 1.0,
+      "macro_specificity": 0.0,
+      "micro_f1": 0.2222,
+      "micro_precision": 0.125,
+      "micro_recall": 1.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pneumonia": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pleural_effusion": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pneumothorax": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "cardiomegaly": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "atelectasis": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pulmonary_edema": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "consolidation": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        }
+      }
+    },
+    {
+      "threshold": 0.18,
+      "macro_f1": 0.2222,
+      "macro_precision": 0.125,
+      "macro_recall": 1.0,
+      "macro_specificity": 0.0,
+      "micro_f1": 0.2222,
+      "micro_precision": 0.125,
+      "micro_recall": 1.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pneumonia": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pleural_effusion": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pneumothorax": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "cardiomegaly": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "atelectasis": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pulmonary_edema": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "consolidation": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        }
+      }
+    },
+    {
+      "threshold": 0.19,
+      "macro_f1": 0.2222,
+      "macro_precision": 0.125,
+      "macro_recall": 1.0,
+      "macro_specificity": 0.0,
+      "micro_f1": 0.2222,
+      "micro_precision": 0.125,
+      "micro_recall": 1.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pneumonia": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pleural_effusion": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pneumothorax": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "cardiomegaly": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "atelectasis": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pulmonary_edema": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "consolidation": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        }
+      }
+    },
+    {
+      "threshold": 0.2,
+      "macro_f1": 0.2292,
+      "macro_precision": 0.1295,
+      "macro_recall": 1.0,
+      "macro_specificity": 0.0357,
+      "micro_f1": 0.2286,
+      "micro_precision": 0.129,
+      "micro_recall": 1.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pneumonia": {
+          "precision": 0.1429,
+          "recall": 1.0,
+          "f1": 0.25
+        },
+        "pleural_effusion": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pneumothorax": {
+          "precision": 0.1429,
+          "recall": 1.0,
+          "f1": 0.25
+        },
+        "cardiomegaly": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "atelectasis": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pulmonary_edema": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "consolidation": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        }
+      }
+    },
+    {
+      "threshold": 0.21,
+      "macro_f1": 0.2153,
+      "macro_precision": 0.1228,
+      "macro_recall": 0.875,
+      "macro_specificity": 0.1072,
+      "micro_f1": 0.2154,
+      "micro_precision": 0.1228,
+      "micro_recall": 0.875,
+      "per_finding": {
+        "normal": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pneumonia": {
+          "precision": 0.1429,
+          "recall": 1.0,
+          "f1": 0.25
+        },
+        "pleural_effusion": {
+          "precision": 0.1429,
+          "recall": 1.0,
+          "f1": 0.25
+        },
+        "pneumothorax": {
+          "precision": 0.1429,
+          "recall": 1.0,
+          "f1": 0.25
+        },
+        "cardiomegaly": {
+          "precision": 0.1429,
+          "recall": 1.0,
+          "f1": 0.25
+        },
+        "atelectasis": {
+          "precision": 0.1429,
+          "recall": 1.0,
+          "f1": 0.25
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.1429,
+          "recall": 1.0,
+          "f1": 0.25
+        }
+      }
+    },
+    {
+      "threshold": 0.22,
+      "macro_f1": 0.1909,
+      "macro_precision": 0.1135,
+      "macro_recall": 0.625,
+      "macro_specificity": 0.3036,
+      "micro_f1": 0.1923,
+      "micro_precision": 0.1136,
+      "micro_recall": 0.625,
+      "per_finding": {
+        "normal": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222
+        },
+        "pneumonia": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1": 0.4
+        },
+        "pleural_effusion": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.3333
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.1667,
+          "recall": 1.0,
+          "f1": 0.2857
+        },
+        "atelectasis": {
+          "precision": 0.1667,
+          "recall": 1.0,
+          "f1": 0.2857
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.23,
+      "macro_f1": 0.1979,
+      "macro_precision": 0.1429,
+      "macro_recall": 0.375,
+      "macro_specificity": 0.6964,
+      "micro_f1": 0.2143,
+      "micro_precision": 0.15,
+      "micro_recall": 0.375,
+      "per_finding": {
+        "normal": {
+          "precision": 0.1429,
+          "recall": 1.0,
+          "f1": 0.25
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.24,
+      "macro_f1": 0.0417,
+      "macro_precision": 0.025,
+      "macro_recall": 0.125,
+      "macro_specificity": 0.9286,
+      "micro_f1": 0.1538,
+      "micro_precision": 0.2,
+      "micro_recall": 0.125,
+      "per_finding": {
+        "normal": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.3333
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.25,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.26,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.27,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.28,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.29,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.3,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.31,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.32,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.33,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.34,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.35,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.36,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.37,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.38,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.39,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.4,
+      "macro_f1": 0.0,
+      "macro_precision": 0.0,
+      "macro_recall": 0.0,
+      "macro_specificity": 1.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "per_finding": {
+        "normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumonia": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pleural_effusion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pneumothorax": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "cardiomegaly": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "atelectasis": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pulmonary_edema": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "consolidation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    }
+  ],
+  "test_comparison": {
+    "uncalibrated_default": {
+      "threshold": 0.25,
+      "macro_avg": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "specificity": 1.0,
+        "f1": 0.0,
+        "roc_auc": 0.5179,
+        "pr_auc": 0.2428
+      },
+      "micro_avg": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 56,
+        "fn": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "specificity": 1.0,
+        "f1": 0.0
+      }
+    },
+    "calibrated_macro": {
+      "threshold": 0.2,
+      "macro_avg": {
+        "precision": 0.1295,
+        "recall": 1.0,
+        "specificity": 0.0357,
+        "f1": 0.2292,
+        "roc_auc": 0.5179,
+        "pr_auc": 0.2428
+      },
+      "micro_avg": {
+        "tp": 8,
+        "fp": 54,
+        "tn": 2,
+        "fn": 0,
+        "precision": 0.129,
+        "recall": 1.0,
+        "specificity": 0.0357,
+        "f1": 0.2286
+      }
+    },
+    "calibrated_per_finding": {
+      "thresholds": {
+        "normal": 0.24,
+        "pneumonia": 0.22,
+        "pleural_effusion": 0.23,
+        "pneumothorax": 0.2,
+        "cardiomegaly": 0.23,
+        "atelectasis": 0.22,
+        "pulmonary_edema": 0.15,
+        "consolidation": 0.21
+      },
+      "macro_avg": {
+        "precision": 0.2534,
+        "recall": 1.0,
+        "specificity": 0.4107,
+        "f1": 0.3843,
+        "roc_auc": 0.5179,
+        "pr_auc": 0.2428
+      },
+      "micro_avg": {
+        "tp": 8,
+        "fp": 33,
+        "tn": 23,
+        "fn": 0,
+        "precision": 0.1951,
+        "recall": 1.0,
+        "specificity": 0.4107,
+        "f1": 0.3265
+      }
+    }
+  }
+}

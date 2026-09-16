@@ -1,0 +1,34 @@
+# Docker ignore rules for Chest X-ray Finding Analyzer
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Git & CI/CD
+.git/
+.gitignore
+.github/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+tests/
+
+# Local Environment & Logs
+.env
+*.log
+scratch/
+
+# IDE Files
+.vscode/
+.idea/
+.gemini/

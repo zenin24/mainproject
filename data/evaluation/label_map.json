@@ -1,0 +1,23 @@
+{
+  "dataset_name": "NIH_ChestXray14_Standard",
+  "label_mapping": {
+    "No Finding": "normal",
+    "Pneumonia": "pneumonia",
+    "Effusion": "pleural_effusion",
+    "Pneumothorax": "pneumothorax",
+    "Cardiomegaly": "cardiomegaly",
+    "Atelectasis": "atelectasis",
+    "Edema": "pulmonary_edema",
+    "Consolidation": "consolidation"
+  },
+  "finding_names": [
+    "normal",
+    "pneumonia",
+    "pleural_effusion",
+    "pneumothorax",
+    "cardiomegaly",
+    "atelectasis",
+    "pulmonary_edema",
+    "consolidation"
+  ]
+}

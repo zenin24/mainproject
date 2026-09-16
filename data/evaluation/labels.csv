@@ -1,0 +1,17 @@
+image_id,split,No Finding,Pneumonia,Effusion,Pneumothorax,Cardiomegaly,Atelectasis,Edema,Consolidation
+eval_001.png,val,1,0,0,0,0,0,0,0
+eval_002.png,val,0,1,0,0,0,0,0,0
+eval_003.png,val,0,0,1,0,0,0,0,0
+eval_004.png,val,0,0,0,1,0,0,0,0
+eval_005.png,val,0,0,0,0,1,0,0,0
+eval_006.png,val,0,0,0,0,0,1,0,0
+eval_007.png,val,0,0,0,0,0,0,1,0
+eval_008.png,val,0,0,0,0,0,0,0,1
+eval_009.png,test,1,0,0,0,0,0,0,0
+eval_010.png,test,0,1,0,0,0,0,0,0
+eval_011.png,test,0,0,1,0,0,0,0,0
+eval_012.png,test,0,0,0,1,0,0,0,0
+eval_013.png,test,0,0,0,0,1,0,0,0
+eval_014.png,test,0,0,0,0,0,1,0,0
+eval_015.png,test,0,0,0,0,0,0,1,0
+eval_016.png,test,0,0,0,0,0,0,0,1

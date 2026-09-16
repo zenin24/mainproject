@@ -1,0 +1,143 @@
+{
+  "evaluation_metadata": {
+    "dataset": "NIH_ChestXray14_Standard_Subset",
+    "split": "test",
+    "sample_count": 8,
+    "model_checkpoint": "flaviagiammarino/pubmed-clip-vit-base-patch32",
+    "device": "cpu",
+    "threshold_used": 0.25,
+    "disclaimer": "Research prototype evaluation. Not for clinical diagnosis."
+  },
+  "per_finding_metrics": {
+    "normal": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 7,
+      "fn": 1,
+      "total_positives": 1,
+      "total_negatives": 7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "f1": 0.0,
+      "roc_auc": 0.5714,
+      "pr_auc": 0.125
+    },
+    "pneumonia": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 7,
+      "fn": 1,
+      "total_positives": 1,
+      "total_negatives": 7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "f1": 0.0,
+      "roc_auc": 0.8571,
+      "pr_auc": 0.25
+    },
+    "pleural_effusion": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 7,
+      "fn": 1,
+      "total_positives": 1,
+      "total_negatives": 7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "f1": 0.0,
+      "roc_auc": 0.8571,
+      "pr_auc": 0.25
+    },
+    "pneumothorax": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 7,
+      "fn": 1,
+      "total_positives": 1,
+      "total_negatives": 7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "f1": 0.0,
+      "roc_auc": 0.1429,
+      "pr_auc": 0.0714
+    },
+    "cardiomegaly": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 7,
+      "fn": 1,
+      "total_positives": 1,
+      "total_negatives": 7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "f1": 0.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0
+    },
+    "atelectasis": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 7,
+      "fn": 1,
+      "total_positives": 1,
+      "total_negatives": 7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "f1": 0.0,
+      "roc_auc": 0.4286,
+      "pr_auc": 0.1
+    },
+    "pulmonary_edema": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 7,
+      "fn": 1,
+      "total_positives": 1,
+      "total_negatives": 7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "f1": 0.0,
+      "roc_auc": 0.0,
+      "pr_auc": 0.0625
+    },
+    "consolidation": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 7,
+      "fn": 1,
+      "total_positives": 1,
+      "total_negatives": 7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "f1": 0.0,
+      "roc_auc": 0.2857,
+      "pr_auc": 0.0833
+    }
+  },
+  "macro_average": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "specificity": 1.0,
+    "f1": 0.0,
+    "roc_auc": 0.5179,
+    "pr_auc": 0.2428
+  },
+  "micro_average": {
+    "tp": 0,
+    "fp": 0,
+    "tn": 56,
+    "fn": 8,
+    "precision": 0.0,
+    "recall": 0.0,
+    "specificity": 1.0,
+    "f1": 0.0
+  }
+}

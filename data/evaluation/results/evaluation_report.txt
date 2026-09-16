@@ -1,0 +1,26 @@
+================================================================================
+CHEST X-RAY FINDING ANALYZER — MODEL EVALUATION REPORT (PHASE 16)
+================================================================================
+
+EVALUATION METADATA:
+  Model Checkpoint : flaviagiammarino/pubmed-clip-vit-base-patch32
+  Compute Device   : cpu
+  Evaluation Split : test (N = 8)
+  Threshold Used   : 0.25 (Fixed Prototype Threshold)
+  Disclaimer       : Research prototype evaluation. Not for clinical diagnosis.
+
+PER-FINDING METRICS:
+Finding            | Positives | Precision | Recall   | Specificity | F1 Score | ROC-AUC  | PR-AUC  
+-----------------------------------------------------------------------------------------------------
+normal             | 1         | 0.0000    | 0.0000   | 1.0000      | 0.0000   | 0.5714   | 0.1250  
+pneumonia          | 1         | 0.0000    | 0.0000   | 1.0000      | 0.0000   | 0.8571   | 0.2500  
+pleural_effusion   | 1         | 0.0000    | 0.0000   | 1.0000      | 0.0000   | 0.8571   | 0.2500  
+pneumothorax       | 1         | 0.0000    | 0.0000   | 1.0000      | 0.0000   | 0.1429   | 0.0714  
+cardiomegaly       | 1         | 0.0000    | 0.0000   | 1.0000      | 0.0000   | 1.0000   | 1.0000  
+atelectasis        | 1         | 0.0000    | 0.0000   | 1.0000      | 0.0000   | 0.4286   | 0.1000  
+pulmonary_edema    | 1         | 0.0000    | 0.0000   | 1.0000      | 0.0000   | 0.0000   | 0.0625  
+consolidation      | 1         | 0.0000    | 0.0000   | 1.0000      | 0.0000   | 0.2857   | 0.0833  
+
+AGGREGATED MULTI-LABEL METRICS:
+  Macro Average  -> Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000, F1: 0.0000
+  Micro Average  -> Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000, F1: 0.0000

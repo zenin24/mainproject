@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  chest-xray-analyzer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: chest_xray_analyzer
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_TITLE=Chest X-ray Finding Analyzer API
+      - MODEL_NAME=flaviagiammarino/pubmed-clip-vit-base-patch32
+      - DEVICE=auto
+      - CONFIDENCE_THRESHOLD=0.25
+      - TOP_K=5
+    volumes:
+      - huggingface_cache:/app/cache/huggingface
+      - ./data/evaluation/results:/app/data/evaluation/results
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+volumes:
+  huggingface_cache:
+    driver: local

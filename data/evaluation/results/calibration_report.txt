@@ -1,0 +1,33 @@
+================================================================================
+CHEST X-RAY FINDING ANALYZER — THRESHOLD CALIBRATION REPORT (PHASE 17)
+================================================================================
+
+CALIBRATION METHODOLOGY:
+  1. Swept threshold candidates in range [0.15, 0.40] on Validation Split (N=8).
+  2. Selected optimal threshold maximizing Macro F1 score on Validation Split.
+  3. Evaluated uncalibrated default (0.25) vs calibrated threshold (0.2000) on held-out Test Split (N=8).
+
+OPTIMAL THRESHOLDS (SELECTION FROM VAL SPLIT):
+  Default Threshold       : 0.2500
+  Optimal Macro Threshold : 0.2000
+  Optimal Per-Finding Thresholds:
+    - normal            : 0.2400
+    - pneumonia         : 0.2200
+    - pleural_effusion  : 0.2300
+    - pneumothorax      : 0.2000
+    - cardiomegaly      : 0.2300
+    - atelectasis       : 0.2200
+    - pulmonary_edema   : 0.1500
+    - consolidation     : 0.2100
+
+HELD-OUT TEST SET EVALUATION COMPARISON:
+  Config                  | Threshold | Precision | Recall   | Specificity | F1 Score
+  ------------------------+-----------+-----------+----------+-------------+---------
+  Uncalibrated (Default)  | 0.2500    | 0.0000    | 0.0000   | 1.0000      | 0.0000  
+  Calibrated (Macro)      | 0.2000    | 0.1295    | 1.0000   | 0.0357      | 0.2292  
+  Calibrated (Per-Finding)| Dynamic   | 0.2534    | 1.0000   | 0.4107      | 0.3843  
+
+MEDICAL DISCLAIMER & TERMINOLOGY:
+  Prototype similarity scores are normalized vector dot-products and do NOT represent
+  clinically validated probabilities of disease presence. Threshold calibration optimizes
+  decision boundaries for prototype classification and is NOT a clinical diagnosis.
